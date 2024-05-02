@@ -58,6 +58,13 @@ will remain equal height, regardless of their content.*/
     display: table;
 }
 
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    /* Not very clear why we're using this float: none here */
+    float: none;
+}
+
 /*-----------------------------------------Heading */
 
 
