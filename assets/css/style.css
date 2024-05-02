@@ -49,6 +49,15 @@ h4 {
     display: inline-block;
 }
 
+
+/*Our display is going to be just set to table.
+By doing this, we can then specify its child columns as table cells,
+as we mentioned before, which as we've said, ensures that the columns
+will remain equal height, regardless of their content.*/
+.row-table {
+    display: table;
+}
+
 /*-----------------------------------------Heading */
 
 
