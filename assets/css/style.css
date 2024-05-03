@@ -251,3 +251,9 @@ footer {
     padding-right: 8px;
     display: inline-block;
 }
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+    
+}
